@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: #050505;
+    color: #a855f7;
+    font-family: 'Courier New', monospace;
+    overflow-x: hidden;
+}
+
+#login-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login-box {
+    border: 2px solid #a855f7;
+    padding: 40px;
+    background: rgba(168, 85, 247, 0.05);
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.2);
+}
+
+input {
+    background: transparent;
+    border: 1px solid #a855f7;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+button {
+    background: #a855f7;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav {
+    background: #111;
+    padding: 20px;
+    border-bottom: 1px solid #a855f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.image-grid img {
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid rgba(168, 85, 247, 0.3);
+    transition: 0.3s;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05);
+    border-color: #a855f7;
+    box-shadow: 0 0 15px #a855f7;
+}
+
+.content-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.gen-box {
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px dashed #a855f7;
+    display: inline-block;
+}
+
+#generated-name {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    color: white;
+}
